@@ -1,5 +1,15 @@
-# Qiskit-fundamentals-course
+# Quantum Coding with Qiskit
 A course to teach the basics of IBM's Qiskit SDK
+
+## Course Information
+Quantum Coding with Qiskit | A Course for Beginners
+
+- Duration: 3-months, with weekly sessions and study weeks
+- Focus: hands-on learning of Qiskit using the IBM Quantum Platform
+- Format: virtual, weekly course modules covering core quantum concepts, qubits, superposition, entanglement, applications, and discussion
+
+## Learner
+- Carlos Araque — Qiskit Advocate
 
 
 ## Installation
