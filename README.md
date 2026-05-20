@@ -135,3 +135,19 @@ Install the project:
 ```bash
 pip install .
 ```
+## IBM Quantum credentials
+
+This repository does not include IBM Quantum credentials.
+
+Before running hardware examples, save your IBM Quantum credentials locally:
+
+```python
+from qiskit_ibm_runtime import QiskitRuntimeService
+
+QiskitRuntimeService.save_account(
+    channel="ibm_quantum_platform",
+    token="YOUR_IBM_API_KEY",
+    instance="YOUR_IBM_INSTANCE_CRN",
+    overwrite=True,
+    set_as_default=True
+)
